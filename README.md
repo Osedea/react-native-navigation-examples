@@ -8,5 +8,7 @@ Examples using :
 
 Slides are [there](https://docs.google.com/presentation/d/1V_SRpI1aUFY9b7rWP2ZV4zP0KLc8eb4GJONF2HWK31Y/edit?usp=sharing)
 
+To checkout the `Tabs` examples, go on the [tabs](/tree/tabs) branch!
+
 Thanks a lot for your interest/attention 🙂
 
