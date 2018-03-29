@@ -13,7 +13,7 @@ type Props = {
 };
 export default class Splash extends Component<Props> {
     goToSplash = () => {
-        Actions.splash();
+        Actions.push({ sceneKey: "splash" });
     };
 
     render() {
