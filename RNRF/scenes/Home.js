@@ -10,25 +10,25 @@ import { Actions } from "react-native-router-flux";
 
 type Props = {};
 export default class Home extends Component<Props> {
-  goToSplash = () => {
-    Actions.splash({ title: "Splash" });
-    // or Actions.push({ sceneKey: 'splash', title: 'Splash' });
-  };
+    goToSplash = () => {
+        Actions.splash({ title: "Splash" });
+        // or Actions.push({ sceneKey: 'splash', title: 'Splash' });
+    };
 
-  render() {
-    return (
-      <View style={styles.container}>
-        <Button onPress={this.goToSplash} title={"Splish"} />
-      </View>
-    );
-  }
+    render() {
+        return (
+            <View style={styles.container}>
+                <Button onPress={this.goToSplash} title={"Splish"} />
+            </View>
+        );
+    }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF"
-  }
+    container: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#F5FCFF"
+    }
 });

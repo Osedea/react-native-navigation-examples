@@ -5,8 +5,8 @@ import { registerScreens } from "./App";
 registerScreens();
 
 Navigation.startSingleScreenApp({
-  screen: {
-    screen: "ReactNativeNavigation.Home",
-    title: "Home",
-  }
+    screen: {
+        screen: "ReactNativeNavigation.Home",
+        title: "Home"
+    }
 });

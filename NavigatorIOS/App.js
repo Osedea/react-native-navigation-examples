@@ -12,21 +12,21 @@ import Home from "./scenes/Home";
 type Props = {};
 
 export default class App extends Component<Props> {
-  render() {
-    return (
-      <NavigatorIOS
-        initialRoute={{
-          component: Home,
-          title: "Home"
-        }}
-        style={styles.container}
-      />
-    );
-  }
+    render() {
+        return (
+            <NavigatorIOS
+                initialRoute={{
+                    component: Home,
+                    title: "Home"
+                }}
+                style={styles.container}
+            />
+        );
+    }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  }
+    container: {
+        flex: 1
+    }
 });

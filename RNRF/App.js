@@ -12,12 +12,12 @@ import Home from "./scenes/Home";
 import Splash from "./scenes/Splash";
 
 const App = () => (
-  <Router>
-    <Stack key="root">
-      <Scene key="home" component={Home} title="Home" />
-      <Scene key="splash" component={Splash} />
-    </Stack>
-  </Router>
+    <Router>
+        <Stack key="root">
+            <Scene key="home" component={Home} title="Home" />
+            <Scene key="splash" component={Splash} />
+        </Stack>
+    </Router>
 );
 
 export default App;
