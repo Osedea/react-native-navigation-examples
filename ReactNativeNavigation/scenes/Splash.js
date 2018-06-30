@@ -5,14 +5,24 @@
  */
 
 import React, { Component } from "react";
-import { Platform, StyleSheet, Text, View } from "react-native";
+import { Button, Platform, StyleSheet, Text, View } from "react-native";
 
-type Props = {};
+type Props = {
+    navigator: Object
+};
 export default class Splash extends Component<Props> {
+    goToSplash = () => {
+        this.props.navigator.push({
+            screen: "ReactNativeNavigation.Splash",
+            title: "Splash"
+        });
+    };
+
     render() {
         return (
             <View style={styles.container}>
                 <Text>Splash</Text>
+                <Button onPress={this.goToSplash} title={"Splish"} />
             </View>
         );
     }

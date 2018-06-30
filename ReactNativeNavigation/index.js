@@ -4,9 +4,17 @@ import { registerScreens } from "./App";
 
 registerScreens();
 
-Navigation.startSingleScreenApp({
-    screen: {
-        screen: "ReactNativeNavigation.Home",
-        title: "Home"
-    }
+Navigation.startTabBasedApp({
+    tabs: [
+        {
+            screen: "ReactNativeNavigation.Home",
+            label: "Home",
+            title: "Home"
+        },
+        {
+            screen: "ReactNativeNavigation.Splash",
+            label: "Splash",
+            title: "Splash"
+        }
+    ]
 });

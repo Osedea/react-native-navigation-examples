@@ -12,7 +12,8 @@ type Props = {
 };
 export default class Splash extends Component<Props> {
     static navigationOptions = {
-        title: "Splash"
+        title: "Splash",
+        tabBarLabel: "Splash"
     };
 
     goToSplash = () => {
