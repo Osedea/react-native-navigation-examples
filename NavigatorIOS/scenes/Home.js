@@ -7,23 +7,23 @@
 import React, { Component } from "react";
 import { Button, Platform, StyleSheet, Text, View } from "react-native";
 
-import Splash from "./Splash";
+import PushedView from "./PushedView";
 
 type Props = {
     navigator: Object
 };
 export default class Home extends Component<Props> {
-    goToSplash = () => {
+    goToPushedView = () => {
         this.props.navigator.push({
-            title: "Splash",
-            component: Splash
+            title: "PushedView",
+            component: PushedView
         });
     };
 
     render() {
         return (
             <View style={styles.container}>
-                <Button onPress={this.goToSplash} title={"Splish"} />
+                <Button onPress={this.goToPushedView} title={"Push something"} />
             </View>
         );
     }

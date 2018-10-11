@@ -11,14 +11,14 @@ type Props = {
     navigation: Object
 };
 export default class Home extends Component<Props> {
-    goToSplash = () => {
-        this.props.navigation.navigate("Splash");
+    goToPushedView = () => {
+        this.props.navigation.navigate("PushedView");
     };
 
     render() {
         return (
             <View style={styles.container}>
-                <Button onPress={this.goToSplash} title={"Splish"} />
+                <Button onPress={this.goToPushedView} title={"Push something"} />
             </View>
         );
     }

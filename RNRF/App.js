@@ -9,13 +9,13 @@ import { Button, StyleSheet } from "react-native";
 import { Router, Stack, Scene } from "react-native-router-flux";
 
 import Home from "./scenes/Home";
-import Splash from "./scenes/Splash";
+import PushedView from "./scenes/PushedView";
 
 const App = () => (
     <Router>
         <Stack key="root">
             <Scene key="home" component={Home} title="Home" />
-            <Scene key="splash" component={Splash} />
+            <Scene key="pushedView" component={PushedView} />
         </Stack>
     </Router>
 );

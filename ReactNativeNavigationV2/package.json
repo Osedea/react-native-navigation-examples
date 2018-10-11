@@ -1,0 +1,27 @@
+{
+  "name": "ReactNativeNavigationV2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android": "cd ./android && ./gradlew app:assembleDebug && ./gradlew installDebug"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.1",
+    "react-native-navigation": "^2.0.2580"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^5",
+    "fs-jetpack": "^2.1.1",
+    "ignite-react-native-navigation": "^0.3.0",
+    "jest": "23.6.0",
+    "ramda": "^0.25.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

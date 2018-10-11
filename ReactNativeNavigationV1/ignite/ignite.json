@@ -1,0 +1,8 @@
+{
+  "createdWith": "2.1.1",
+  "boilerplate": "empty",
+  "examples": "none",
+  "generators": {
+    "thing": "ignite-native-navigation"
+  }
+}

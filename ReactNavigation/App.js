@@ -6,19 +6,19 @@
 
 import React, { Component } from "react";
 import { Button, StyleSheet } from "react-native";
-import { StackNavigator } from "react-navigation";
+import { createStackNavigator } from "react-navigation";
 
 import Home from "./scenes/Home";
-import Splash from "./scenes/Splash";
+import PushedView from "./scenes/PushedView";
 
-export default StackNavigator({
+export default createStackNavigator({
     Home: {
         screen: Home,
         navigationOptions: {
             title: "Home"
         }
     },
-    Splash: {
-        screen: Splash
+    PushedView: {
+        screen: PushedView
     }
 });
