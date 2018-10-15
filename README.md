@@ -1,4 +1,4 @@
-# Let's React Montreal - March 2018
+# Let's React Montreal - March 2018 - Tabs example
 
 Examples using : 
  * [NavigatorIOS](https://facebook.github.io/react-native/docs/navigatorios.html): [here](./NavigatorIOS)
