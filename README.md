@@ -15,6 +15,7 @@ Examples using :
  * [react-native-router-flux](https://github.com/aksonov/react-native-router-flux): [here](./RNRF)
  * [react-native-easy-router](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fsergeyshpadyrev%2Freact-native-easy-router): [here](./ReactNativeEasyRouter)
  * [react-native-swipe-navigation](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2FAZZB%2Freact-native-swipe-navigation): [here](./ReactNativeSwipeNavigation)
+ * [react-router-native](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-native): [here](./ReactRouterNative)
 
 Slides of my original Talk at Let's React Montreal - March 2018 that made me originally create these examples are [there](https://docs.google.com/presentation/d/1V_SRpI1aUFY9b7rWP2ZV4zP0KLc8eb4GJONF2HWK31Y/edit?usp=sharing)
 
